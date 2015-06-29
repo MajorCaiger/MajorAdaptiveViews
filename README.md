@@ -2,7 +2,10 @@
 ZF2 module that allows you to specify different View Controllers to render your response based on the requested Content Type
 
 ## Installation
+
     composer require major-caiger/major-adaptive-views ~0.1
+
+Add 'MajorAdaptiveViews' to your application.config.php
 
 ## Configuration
 ### Sample route config
