@@ -14,6 +14,7 @@ return array(
     'view_controllers' => array(
         'invokables' => array(
             'Json' => 'MajorAdaptiveViews\Mvc\View\JsonViewController',
+            'Template' => 'MajorAdaptiveViews\Mvc\View\TemplateViewController',
         ),
     ),
 );

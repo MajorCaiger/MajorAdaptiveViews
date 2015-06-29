@@ -92,7 +92,13 @@ From your controller method
     }
     
 ### Existing view controllers
+#### Json
+Returns a JsonModel (Requires json view strategy)
+No options
 
-| Service  | Function |
+#### Template
+Returns a ViewModel with a specified template
+
+| Option | Function |
 | ------------- | ------------- |
-| Json  | Returns JsonModel (Requires json view strategy) |
+| template (optional) | Set the template of the ViewModel returned |
