@@ -25,4 +25,9 @@ abstract class AbstractViewController implements ViewControllerInterface
     {
         return $this->options;
     }
+
+    protected function getOption($name, $default = null)
+    {
+        return isset($this->options[$name]) ? $this->options[$name] : $default;
+    }
 }
