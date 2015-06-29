@@ -1,0 +1,19 @@
+{
+  "name": "major-caiger/major-adaptive-views",
+  "description": "Zend Framework 2 Module that allows you to use different view controllers based on the requested content type",
+  "type": "library",
+  "keywords": [
+    "major-caiger",
+    "module",
+    "zf2",
+    "view controller"
+  ],
+  "require": {
+    "php": ">=5.4"
+  },
+  "autoload": {
+    "psr-0": {
+      "MajorAdaptiveViews\\": "src/"
+    }
+  }
+}

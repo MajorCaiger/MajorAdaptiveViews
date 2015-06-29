@@ -1,2 +1,2 @@
 # MajorAdaptiveViews
-ZF2 module that allows you to specify different ViewControllers to render your response based on the requested content type
+ZF2 module that allows you to specify different View Controllers to render your response based on the requested Content Type
